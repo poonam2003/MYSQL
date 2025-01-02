@@ -178,3 +178,40 @@ SELECT * FROM emp WHERE YEAR(DOJ) = 2023;
 
 # Membership Operators
 # Bitwise Operators
+
+USE brillica;
+
+DESCRIBE emp;
+
+# Write a query to show the table whose name startswith vowel sound. 
+
+SELECT *
+FROM emp
+WHERE LEFT(TRIM(Emp_Name),1) IN ("A","E","I","O","U");
+
+# Filter the table whose salary between 20k to 30k who lives in patna. 
+
+SELECT *
+FROM emp
+WHERE Salary BETWEEN 20000 AND 30000
+AND city = "Patna";
+
+# Filter the table whose age is between 20 to 30  and salary 40k to 50k. 
+
+SELECT *
+FROM emp
+WHERE Age BETWEEN 20 AND 30
+AND Salary BETWEEN 40000 AND 50000;
+
+# Filter the table show name of length is less than 10. 
+
+SELECT *
+FROM emp
+WHERE LENGTH(TRIM(Emp_Name)) < 10;
+
+# Filter the table whose department is not given. 
+
+SELECT *
+FROM emp
+WHERE Department = "";
+
