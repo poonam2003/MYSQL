@@ -87,7 +87,7 @@
 
 # DML :- Data Manipulation Language
 
-# 1. INSERT :- With the help of this command we can add values inn particular rows. 
+# 1. INSERT :- With the help of this command we can add values in particular rows. 
 # 2. UPDATE :- It is used to add the value or replace the value in a particular cell.
 # 3. DELETE :- Delete are used to delete the rows from table according to user. 
 
@@ -104,7 +104,7 @@
 
 # 1. SAVEPOINT :- Its save the data temporary base in database. 
 # 2. ROLLBACK :- Its take a step back in data. 
-# 3. COMMIT :- Its save the data permamently in database.
+# 3. COMMIT :- Its save the data permanently in database.
 
 #-------------------------------------------------------------------------------------------------------------------------------------
 
